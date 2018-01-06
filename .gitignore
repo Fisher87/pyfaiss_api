@@ -1,0 +1,3 @@
+*.pyc
+pyfaiss/faiss_utils/_swigfaiss.so
+pyfaiss/faiss_utils/swigfaiss.py
