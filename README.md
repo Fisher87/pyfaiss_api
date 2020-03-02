@@ -55,3 +55,12 @@ PyFaiss
 >>> print index.ntotal
 211897
 ```
+
+## `Faiss install by Docker`
+```
+# build conda3 image
+docker build -f=Dockerfile.conda -t conda3:1.0 .
+
+# build faiss image
+docker build -f=Dockerfile.faiss -t conda-faiss:1.0 .
+```

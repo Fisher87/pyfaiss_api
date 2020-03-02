@@ -1,0 +1,6 @@
+from conda3:1.0
+
+# RUN conda install pytorch -y
+RUN conda install faiss-cpu -c pytorch -y
+
+CMD [ "/bin/bash" ]
